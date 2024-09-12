@@ -11,6 +11,10 @@ body{
 }
 a{
     text-decoration: none;
+
+}
+.headr_link{
+color:#FBFAF7;
 }
 .header{
     background-color:  #163A24;
@@ -29,14 +33,12 @@ a{
     padding: 20px 0 20px 0;
 }
 .header_link{
-    color: white ;
-
+    color: white;
 }
 .header_bootns{
     display: flex;
     align-items: center;
     gap: 24px;
-    color: white;
 
 }
 .btn{
@@ -53,6 +55,7 @@ a{
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: right;
+    color: #FBFAF7;
 
 }
 .first_section_text_block{
@@ -63,14 +66,16 @@ a{
 .section_title{
     font-size: 48px;
     font-weight: bold;
+    margin-bottom: 18px;
 }
 .section_sub_title{
     font-size: 18px;
-    margin-top: 18px;
 
 }
 .second-section{
-    padding-bottom: 120px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+
 }
 .section_text_1{
     font-size: 48px;
@@ -85,6 +90,7 @@ a{
 .section_sub_text_2{
     font-size: 18px;
     font-family: "Noto Sans", sans-serif;
+    margin-top: 27px;
 }
 .element_1 {
     display: flex;
@@ -100,6 +106,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center; 
+    margin-top: 180px;
 }
 .text_partners{
     font-size: 54px;
@@ -111,6 +118,7 @@ a{
 }
 .text_container_2{
     flex-direction: column;
+    margin-right: 113px;
 }
 .text_container_1{
     flex-direction: column;
@@ -156,6 +164,7 @@ a{
 .section_sub_text_3{
     text-align: center;
     font-size: 18px;
+    margin-top: 27px;
 }
 .partners_boots{
     display: flex;
@@ -168,16 +177,42 @@ a{
 .section_text_4{
     text-align: center;
     font-size: 54px;
+}
+.footer_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 43px;
+}
 
+.footer_link{
+    margin: 0 7px;
+}
+
+.line{
+    display: flex;
+    border: solid 1px;
+    color: #F2EFE6;
+    margin-bottom: 24px;
 
 }
-.top{
+.footer_link_{
+    color: #198C36;
+
+}
+.text_permission{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_link_{
+    margin: 0 7px;
+}
+.footer{
     margin-top: 20px;
 }
-.footer_text_block{
-    text-align: center;
+.footer_text{
     font-size: 24px;
-
-
-
 }
